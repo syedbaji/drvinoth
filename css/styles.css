@@ -205,6 +205,18 @@ footer .facebook i.fa{
 .lh-20{
     line-height: 20px;
 }
+a:hover{
+    text-decoration: none;
+}
+.video-block .text-on-image{
+    background: rgba(0,0,0,0.3);
+}
+.bg-play-button{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.6) 30%, rgba(0,0,0,0));
+}
+.blog-item h3{
+    /* min-height: 80px; */
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 
 /* // No media query since this is the default in Bootstrap */

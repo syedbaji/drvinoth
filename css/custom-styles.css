@@ -219,6 +219,16 @@ html {
     line-height: 50px;
     outline: none;
 }
+.init-coi{
+    position: relative;
+}
+.text-on-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
 @media (min-width: 576px) {
     .extra-light-sm-200{
         font-weight: 200;
@@ -315,6 +325,13 @@ html {
     }
     .font-sm-30 {
         font-size: 1.875rem;
+    }
+    .text-on-image-sm{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
     }
 }
 
@@ -414,6 +431,13 @@ html {
     }
     .font-md-30 {
         font-size: 1.875rem;
+    }
+    .text-on-image-md{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
     }
 }
 
@@ -520,6 +544,13 @@ html {
     .float-lg-right{
         float: right !important;
     }
+    .text-on-image-lg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -625,6 +656,13 @@ html {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1261px;
     }
+    .text-on-image-xl{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -728,6 +766,13 @@ html {
         font-size: 1.875rem;
     }
     .container, .container-lg, .container-md, .container-sm, .container-xxl {
-        max-width: 1366px;
+        max-width: 1300px;
+    }
+    .text-on-image-xxl{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
     }
 }
