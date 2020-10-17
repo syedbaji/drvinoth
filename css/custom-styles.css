@@ -728,6 +728,6 @@ html {
         font-size: 1.875rem;
     }
     .container, .container-lg, .container-md, .container-sm, .container-xxl {
-        max-width: 1261px;
+        max-width: 1366px;
     }
 }

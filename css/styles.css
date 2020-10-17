@@ -96,7 +96,7 @@ nav.bst-1 {
     min-height: 150px;
 }
 .font-size-xxxl{
-    font-size: xxx-large;
+    font-size: 36px;
 }
 .navbar-light .navbar-nav .nav-link{
     color: #4a4a4a;
@@ -201,6 +201,9 @@ footer .facebook{
 footer .facebook i.fa{
     color: #2d54a2;
     font-size: 24px;
+}
+.lh-20{
+    line-height: 20px;
 }
 /* // Extra small devices (portrait phones, less than 576px) */
 
