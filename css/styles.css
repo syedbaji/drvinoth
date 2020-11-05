@@ -212,7 +212,7 @@ a:hover{
     background: rgba(0,0,0,0.3);
 }
 .bg-play-button{
-    background-image: radial-gradient(circle, rgba(0,0,0,0.6) 30%, rgba(0,0,0,0));
+    background-image: radial-gradient(circle, rgba(0,0,0,0.3) 30%, rgba(0,0,0,0));
 }
 .blog-item h3{
     /* min-height: 80px; */
