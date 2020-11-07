@@ -292,6 +292,9 @@ a:hover{
 .echocardiogram-service-section{
     background: url(../images/servicepage-img3.jpg) no-repeat right top / auto;
 }
+.apnt-submit-btn, .contact-submit-btn{
+    font-size: 20px !important;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* // Small devices (landscape phones, 576px and up) */
