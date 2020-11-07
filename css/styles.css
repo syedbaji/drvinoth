@@ -283,6 +283,15 @@ a:hover{
     flex-flow: row wrap;
     align-items: flex-start;
 }
+.electrocardiogram-service-section{
+    background: url(../images/servicepage-img1.jpg) no-repeat left top / auto;
+}
+.treadmill-service-section{
+    background: url(../images/servicepage-img2.jpg) no-repeat right top / auto;
+}
+.echocardiogram-service-section{
+    background: url(../images/servicepage-img3.jpg) no-repeat right top / auto;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* // Small devices (landscape phones, 576px and up) */
