@@ -6,14 +6,16 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #4a4a4a;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .bg-gray {
     background: #e6e7e8;
 }
-
+.bg-light-gray{
+    background: #f8f9fa;
+}
 .bg-green {
     background: #3ab770;
 }
@@ -217,47 +219,93 @@ a:hover{
 .blog-item h3{
     /* min-height: 80px; */
 }
+.bg-about {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgb(45, 84, 162), rgba(2, 41, 117, 0.6)), url(../images/breadcrumbbg.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-section h2{
+    font-size: 40px;
+}
+.w3l-counter-6 .conuter-66-info {
+    background: #f8f9fa;
+}
+.counter-gd {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+}
+.about-box .icon, .ser_icon .icon {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    line-height: 80px;
+    text-align: center;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    background: #2d54a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-tab{
+    cursor: pointer;
+    border-bottom: solid 8px transparent;
+}
+.service-tab:hover{
+    border-bottom: solid 8px rgba(45, 84, 162, 0.4);
+}
+.service-tab.active{
+    border-bottom: solid 8px #2d54a2;
+}
+.about-box .icon span.fa {
+    line-height: 80px;
+    color: #ffffff;
+}
+.service-content{
+    display: none;
+}
+.service-content.active{
+    display: block;
+}
+.form-bg-w3ls .form-control{
+    min-height: 50px;
+}
+.contact-info-section .right-column h3+p{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
-
 /* // No media query since this is the default in Bootstrap */
-
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
-
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
-
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
-
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
-
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
-
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {}
-
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {}
-
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {}
-
 /* // Extra large devices (large desktops) */
-
 /* // No media query since the extra-large breakpoint has no upper bound on its width */
-
-
-
-
-
 /* IE10+ CSS styles go here */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {}
-
 /* your css rules for ipad portrait */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {}
-
 /* your css rules for ipad landscape */
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {}

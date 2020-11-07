@@ -81,6 +81,10 @@ html {
     font-size: 1.875rem;
 }
 
+.font-40 {
+    font-size: 2.5rem;
+}
+
 .show-menu {
     display: block;
 }
@@ -326,6 +330,11 @@ html {
     .font-sm-30 {
         font-size: 1.875rem;
     }
+
+    .font-sm-40 {
+        font-size: 2.5rem;
+    }
+
     .text-on-image-sm{
         position: absolute;
         width: 100%;
@@ -432,6 +441,11 @@ html {
     .font-md-30 {
         font-size: 1.875rem;
     }
+
+    .font-md-40 {
+        font-size: 2.5rem;
+    }
+
     .text-on-image-md{
         position: absolute;
         width: 100%;
@@ -544,6 +558,11 @@ html {
     .float-lg-right{
         float: right !important;
     }
+
+    .font-lg-40 {
+        font-size: 2.5rem;
+    }
+
     .text-on-image-lg{
         position: absolute;
         width: 100%;
@@ -653,6 +672,11 @@ html {
     .font-xl-30 {
         font-size: 1.875rem;
     }
+
+    .font-xl-40 {
+        font-size: 2.5rem;
+    }
+
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1261px;
     }
@@ -765,6 +789,11 @@ html {
     .font-xxl-30 {
         font-size: 1.875rem;
     }
+
+    .font-xxl-40 {
+        font-size: 2.5rem;
+    }
+
     .container, .container-lg, .container-md, .container-sm, .container-xxl {
         max-width: 1300px;
     }

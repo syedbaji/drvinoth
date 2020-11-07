@@ -26,4 +26,9 @@ $(document).ready(function () {
     $('.close-btn').on('click', function(){
         $('.more-details').animate({'top': '100%', 'opacity': '0'});
     })
+    $('.service-tab').on('click', function(){
+        $('.service-content, .service-tab').removeClass('active');
+        $(this).addClass('active');
+        $('.'+$(this).data('tab')+'-content').addClass('active');
+    })
 });
