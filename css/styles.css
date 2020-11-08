@@ -323,8 +323,10 @@ a:hover {
 .dropdown-menu {
     top: 90%;
 }
-.card {
+.tab-content{
     border: 8px solid #2d54a2;
+}
+.card {
     border-radius: 0;
 }
 .timeline {
@@ -424,6 +426,9 @@ a:hover {
 .who-can-consult-section .item:hover > div{
     transform: scale(1);
     transition: all .3s;
+}
+.sprow{
+    transform: scaleX(1.025);
 }
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
