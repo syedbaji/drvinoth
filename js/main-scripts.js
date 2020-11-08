@@ -27,8 +27,28 @@ $(document).ready(function () {
         $('.more-details').animate({'top': '100%', 'opacity': '0'});
     })
     $('.service-tab').on('click', function(){
-        $('.service-content, .service-tab').removeClass('active');
-        $(this).addClass('active');
-        $('.'+$(this).data('tab')+'-content').addClass('active');
-    })
+        showActiveTabContent($(this));
+    });
+    $('.achievements-tab').on('click', function(){
+        showActiveTabContent($(this));
+    });
+    function showActiveTabContent(thiss){
+        var tabname = thiss.data('tab');
+        $('*[data-content], *[data-tab]').removeClass('active');
+        $('*[data-content="'+ tabname +'"], *[data-tab="'+ tabname +'"]').addClass('active');
+    }
+    $('.filterbtn').on('click', function(){
+        var category = $(this).data('filter');
+        if(category === '.all'){
+            $('.port-item').removeClass('active').fadeOut();
+            setTimeout(function(){
+                $('.port-item').addClass('active').fadeIn();
+            }, 1000);
+        }else{
+            $('.port-item').removeClass('active').fadeOut();
+            setTimeout(function(){
+                $('.port-item'+category).addClass('active').fadeIn();
+            }, 1000);
+        }
+    });
 });

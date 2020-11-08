@@ -32,7 +32,7 @@ html {
     margin: 0;
 }
 .text-black, .color-black{
-    color: black;
+    color: black !important;
 }
 .font-8 {
     font-size: 0.5rem;
