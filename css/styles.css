@@ -323,7 +323,7 @@ a:hover {
 .dropdown-menu {
     top: 90%;
 }
-.tab-content{
+.achievement-content-section .tab-content{
     border: 8px solid #2d54a2;
 }
 .card {
@@ -429,6 +429,23 @@ a:hover {
 }
 .sprow{
     transform: scaleX(1.025);
+}
+.lb-data .lb-close{
+    background: url(../images/close.png) top right no-repeat;
+}
+.lb-nav a.lb-next{
+    background: url(../images/next.png) right 48% no-repeat;
+}
+.lb-nav a.lb-prev{
+    background: url(../images/prev.png) left 48% no-repeat;
+}
+.filterbtn{
+    border: none;
+}
+.filterbtn.active{
+    background: #3ab770;
+    color: white;
+    outline: none;
 }
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */

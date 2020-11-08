@@ -50,5 +50,27 @@ $(document).ready(function () {
                 $('.port-item'+category).addClass('active').fadeIn();
             }, 1000);
         }
+        $('.filterbtn').removeClass('active');
+        $(this).addClass('active');
     });
+    $('.achievements-tab').on('click', function(){
+        showActiveTabContent($(this));
+    });
+    // $('.example-image-link').on('click', function(event){
+    //     var thiss = $(this);
+    //     event.preventDefault();
+    //     if($(this).hasClass('video')){
+    //         setTimeout(function(){
+    //             $('.lb-container iframe').remove();
+    //             $('.lb-container').prepend('<iframe width="100%" height="315" src="'+ thiss.data('videourl') +'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    //             $('.lb-container .lb-image').hide();
+    //         },1000);
+    //     }else{
+    //         $('.lb-container iframe').remove();
+    //     }
+    // });
+    // $('.lb-next').on('click', function(){
+    //     $('.lb-container iframe').remove();
+    // });
+    
 });
