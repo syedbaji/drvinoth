@@ -25,6 +25,9 @@ body {
 .color-black {
     color: #4a4a4a !important;
 }
+.color-blue {
+    color: #2d54a2;
+}
 .color-black.disabled{
     color: #8d8c8c !important;
 }
@@ -440,6 +443,9 @@ a:hover {
     background: #3ab770;
     color: white;
     outline: none;
+}
+h1, h2, h3, .h2{
+    color: #2d54a2;
 }
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */

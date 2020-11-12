@@ -4,6 +4,9 @@ $(document).ready(function () {
         margin: 10,
         nav: true,
         dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: false,
         responsive: {
             0: {
                 items: 1
