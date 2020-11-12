@@ -46,6 +46,20 @@ $(document).ready(function () {
         $('.more-details .services-desc-block p').text(content);
         $('.more-details').animate({'top': '0px', 'opacity': '1'});
     })
+    $('a.gal-item, a.pop-item').on('click', function(){
+        var thiis = $(this);
+        var showurl = '';
+        if(thiis.hasClass('image')){
+            showurl = thiis.data('imageurl');
+            $(document).find('#myVideoModal').find('.modal-body').html('<img src="'+showurl+'" class="img-fluid w-100" />');
+        }else{
+            showurl = thiis.data('videourl');
+            $(document).find('#myVideoModal').find('.modal-body').html('<iframe width="100%" height="315" src="'+showurl+'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+        }
+    });
+    $("#myVideoModal").on("hidden.bs.modal", function () {
+        $(this).find('iframe').attr('src', '');
+    });
     $('.close-btn').on('click', function(){
         $('.more-details').animate({'top': '100%', 'opacity': '0'});
     })
@@ -79,21 +93,5 @@ $(document).ready(function () {
     $('.achievements-tab').on('click', function(){
         showActiveTabContent($(this));
     });
-    // $('.example-image-link').on('click', function(event){
-    //     var thiss = $(this);
-    //     event.preventDefault();
-    //     if($(this).hasClass('video')){
-    //         setTimeout(function(){
-    //             $('.lb-container iframe').remove();
-    //             $('.lb-container').prepend('<iframe width="100%" height="315" src="'+ thiss.data('videourl') +'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
-    //             $('.lb-container .lb-image').hide();
-    //         },1000);
-    //     }else{
-    //         $('.lb-container iframe').remove();
-    //     }
-    // });
-    // $('.lb-next').on('click', function(){
-    //     $('.lb-container iframe').remove();
-    // });
     
 });
