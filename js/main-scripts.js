@@ -19,6 +19,26 @@ $(document).ready(function () {
             }
         }
     });
+    $('.docvideos-section-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 2
+            }
+        }
+    });
     $('.readmore').on('click', function(){
         var title = $(this).closest('.services-item').find('h3').text();
         var content = $(this).closest('.services-item').find('.services-desc-block').find('p').text();
