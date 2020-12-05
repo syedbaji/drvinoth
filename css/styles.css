@@ -279,13 +279,13 @@ a:hover {
     align-items: flex-start;
 }
 .electrocardiogram-service-section {
-    background: url(../images/servicepage-img1.jpg) no-repeat left top / cover;
+    background: white;
 }
 .treadmill-service-section {
-    background: url(../images/servicepage-img2.jpg) no-repeat right top / cover;
+    background: white;
 }
 .echocardiogram-service-section {
-    background: url(../images/servicepage-img3.jpg) no-repeat right top / cover;
+    background: white;
 }
 .apnt-submit-btn, .contact-submit-btn {
     font-size: 20px !important;
@@ -460,6 +460,15 @@ h1, h2, h3, .h2{
         -ms-flex: 0 0 20%;
         flex: 0 0 20%;
         max-width: 20%;
+    }
+    .electrocardiogram-service-section {
+        background: url(../images/services-ecg.jpg) no-repeat left top / 100% 100%;
+    }
+    .treadmill-service-section {
+        background: url(../images/services-treadmill.jpg) no-repeat right top / 100% 100%;
+    }
+    .echocardiogram-service-section {
+        background: url(../images/service-Echocar.jpg) no-repeat right top / 100% 100%;
     }
 }
 /* // Extra large devices (large desktops, 1200px and up) */
