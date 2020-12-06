@@ -93,5 +93,6 @@ $(document).ready(function () {
     $('.achievements-tab').on('click', function(){
         showActiveTabContent($(this));
     });
+    // $('.clickmefor-mobile-menu').
     
 });
