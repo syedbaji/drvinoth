@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <section class="consult-location-section bg-gray">
+    <section class="consult-location-section bg-gray d-none d-lg-block">
         <div class="container-fluid">
             <div class="row">
                 <div
@@ -46,8 +46,9 @@
             <div class="row">
                 <div class="col-lg-3 p-0 logo-col">
                     <div
-                        class="col-lg-9 mx-auto p-0 px-3 px-lg-0 logo-block d-flex align-items-center justify-content-center">
-                        <a href="#"><img src="images/logo.png" class="img-fluid" alt=""></a>
+                        class="col-lg-9 mx-lg-auto p-0 px-3 py-3 py-lg-0 px-lg-0 d-flex align-items-center justify-content-lg-center justify-content-between h-100">
+                        <a href="#"><img src="images/logo.png" class="img-fluid logo-img" alt=""></a>
+                        <a class="btn btn-primary drv-btn bg-green d-inline-block d-lg-none" href="appointment.html">Book Appointments </a>
                     </div>
                 </div>
                 <div class="col-lg-9 p-0">
@@ -57,8 +58,7 @@
                             <div class="col-4 col-lg-4 p-0">
                                 <div class="col-lg-12 p-0 py-3 py-lg-0 text-center text-lg-right">
                                     <p class="font-16 font-lg-18 font-weight-800">
-                                        <a href="tel:8367777330"
-                                            class="color-black d-inline-flex align-items-center"><i
+                                        <a href="tel:8367777330" class="color-black d-inline-flex align-items-center"><i
                                                 class="mr-2 font-24 font-lg-30 fa fa-mobile" aria-hidden="true"></i>
                                             <span class="d-none d-lg-inline-block">+91 - 836 7777 330</span></a></p>
                                 </div>
@@ -66,7 +66,8 @@
                             <div class="col-4 col-lg-4 p-0">
                                 <div class="col-lg-12 p-0 py-3 py-lg-0 text-center text-lg-right">
                                     <p class="font-16 font-lg-18 semi-bold-600">
-                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=8367777330" class="color-black d-inline-flex align-items-center">
+                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=8367777330"
+                                            class="color-black d-inline-flex align-items-center">
                                             <i class="mr-2 font-24 font-lg-30 fa fa-whatsapp" aria-hidden="true"></i>
                                             <span class="d-none d-lg-inline-block">+91 - 836 7777 330</span>
                                         </a>
@@ -76,21 +77,28 @@
                             <div class="col-4 col-lg-4 p-0 text-center text-lg-right book-cusultation-block">
                                 <div class="col-lg-12 p-0 d-none d-lg-block">
                                     <p class="font-16 font-lg-18 semi-bold-600">
-                                        <a href="tel:8367777440" class="color-black d-inline-flex align-items-center disabled"><i class="mr-2 font-24 font-lg-30 fa fa-clock-o" aria-hidden="true"></i> <span class="d-none d-lg-inline-block">+91 - 836 7777 440</span></a>
+                                        <a href="tel:8367777440"
+                                            class="color-black d-inline-flex align-items-center disabled"><i
+                                                class="mr-2 font-24 font-lg-30 fa fa-clock-o" aria-hidden="true"></i>
+                                            <span class="d-none d-lg-inline-block">+91 - 836 7777 440</span></a>
                                     </p>
                                     <!-- <a class="btn btn-primary drv-btn bg-green mb-2 w-100" href="#">Book
                                         Wellness Consultation</a>
                                     <a class="btn btn-primary drv-btn bg-green w-100" href="#">Book
                                         Online Video Consultation</a> -->
                                 </div>
-                                <div class="col-lg-12 p-0 d-block d-lg-none">
-                                    123
+                                <div class="col-lg-12 p-0 d-block d-lg-none clickmefor-mobile-menu">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                        <span class="navbar-toggler-icon">
+                                            <i class="fa fa-bars" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12 p-0">
-                        <nav class="navbar navbar-expand-sm bg-light navbar-light bst-1">
+                        <nav class="navbar navbar-expand-sm bg-light navbar-light bst-1 py-lg-2 px-lg-3 p-0 px-3">
                             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                 <ul class="navbar-nav font-16 color-black semi-bold-600 text-uppercase">
                                     <li class="nav-item">
@@ -98,11 +106,11 @@
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" href="aboutus.html" id="">
-                                          About Us
+                                            About Us
                                         </a>
                                         <div class="dropdown-menu">
-                                          <a class="dropdown-item" href="#">Dr. Vinoth's Heart Center</a>
-                                          <a class="dropdown-item" href="#">Dr. Vinoth Kumar</a>
+                                            <a class="dropdown-item" href="#">Dr. Vinoth's Heart Center</a>
+                                            <a class="dropdown-item" href="#">Dr. Vinoth Kumar</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
@@ -110,14 +118,14 @@
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" href="achievements.html" id="">
-                                          Achievements
+                                            Achievements
                                         </a>
                                         <div class="dropdown-menu">
-                                          <a class="dropdown-item" href="#">Presentations</a>
-                                          <a class="dropdown-item" href="#">Publications</a>
-                                          
+                                            <a class="dropdown-item" href="#">Presentations</a>
+                                            <a class="dropdown-item" href="#">Publications</a>
+
                                         </div>
-                                      </li>
+                                    </li>
                                     <li class="nav-item">
                                         <a class="nav-link py-2 color-black" href="gallery.html">Gallery</a>
                                     </li>
@@ -132,7 +140,7 @@
             </div>
         </div>
     </header>
-    <section class="about-banner banner-section bg-about">
+    <section class="about-banner banner-section bg-about mb-4 mb-lg-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 py-5">
@@ -156,33 +164,6 @@
                             He completed his DM cardiology training from the prestigious Sri Jayadeva Institute of cardiology and Research centre, Bangalore, which is one of the largest centre for heart care in southeast asia.
                                 <br><br>
                             Graduating from a centre where <b>3000 open heart surgeries</b> and <b>30000 cathlab procedures including angiograms, angioplasties, pacemakers and device closure procedures</b> are done annually definitely made him a competent interventional cardiologist. But his competency in interventional cardiology never prevented him concentrating on clinical and preventive cardiology.</p>
-                            <div class="row my-5">
-                                <div class="col-md-4 col-6">
-                                    <div class="about-box service-tab active" data-tab="service-1">
-                                        <span class="icon mb-3">
-                                            <span class="fa fa-heartbeat font-30 font-lg-40"></span>
-                                        </span>
-                                        <h4 class="font-16 font-lg-22">Electrocardiogram</h4>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-6">
-                                    <div class="about-box service-tab" data-tab="service-2">
-                                        <span class="icon mb-3">
-                                            <span class="fa fa-heartbeat font-30 font-lg-40"></span>
-                                        </span>
-                                        <h4 class="font-16 font-lg-22">Treadmill Test</h4>
-                                    </div>
-                                </div>
-                                <!-- .about-box ends here -->
-                                <div class="col-md-4 col-6 mt-md-0 mt-4">
-                                    <div class="about-box service-tab" data-tab="service-3">
-                                        <span class="icon mb-3">
-                                            <span class="fa fa-heartbeat font-30 font-lg-40"></span>
-                                        </span>
-                                        <h4 class="font-16 font-lg-22">Echocardiogram</h4>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0">
@@ -190,6 +171,33 @@
                             <img src="images/heart-care-center.png" class="img-fluid" alt="">
                             <!-- <img src="images/doc-vinoth.png" class="img-fluid" alt=""> -->
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-4 col-6">
+                    <div class="about-box service-tab active" data-tab="service-1">
+                        <span class="icon mb-3">
+                            <span class="fa fa-heartbeat font-30 font-lg-40"></span>
+                        </span>
+                        <h4 class="font-16 font-lg-22">Electrocardiogram</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="about-box service-tab" data-tab="service-2">
+                        <span class="icon mb-3">
+                            <span class="fa fa-heartbeat font-30 font-lg-40"></span>
+                        </span>
+                        <h4 class="font-16 font-lg-22">Treadmill Test</h4>
+                    </div>
+                </div>
+                <!-- .about-box ends here -->
+                <div class="col-md-4 col-6 mt-md-0 mt-4">
+                    <div class="about-box service-tab" data-tab="service-3">
+                        <span class="icon mb-3">
+                            <span class="fa fa-heartbeat font-30 font-lg-40"></span>
+                        </span>
+                        <h4 class="font-16 font-lg-22">Echocardiogram</h4>
                     </div>
                 </div>
             </div>

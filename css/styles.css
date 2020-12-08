@@ -219,8 +219,7 @@ a:hover {
     background-attachment: fixed;
 }
 .about-banner.bg-about {
-    /* background-image: linear-gradient(to right, rgb(45, 84, 162), rgba(2, 41, 117, 0.6)), url(../images/about-banner.jpg); */
-    background: url(../images/about-banner.jpg) no-repeat left top / 100% !important;
+    background: url(../images/about-banner.jpg) no-repeat left top / cover !important;
 }
 .banner-section h2 {
     font-size: 40px;
@@ -480,6 +479,9 @@ button:focus.navbar-toggler{
     .logo-img {
         /* min-height: 128px; */
         max-width: 240px;
+    }
+    .about-banner.bg-about {
+        background: url(../images/about-banner.jpg) no-repeat left top / 100% !important;
     }
 }
 /* // Extra large devices (large desktops, 1200px and up) */
