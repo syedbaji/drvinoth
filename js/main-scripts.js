@@ -39,7 +39,7 @@ $(document).ready(function () {
             }
         }
     });
-    if($(window).width() < 768){
+    if($(window).width() < 767){
         $('.home-testimonial-carousel').owlCarousel({
             loop: false,
             margin: 10,
