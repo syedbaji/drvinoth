@@ -559,7 +559,7 @@ button:focus.navbar-toggler {
 }
 .callto-action-section .action-buttons{
     position: fixed;
-    bottom: 0;
+    bottom: 60px;
     right: 25px;
     z-index: 9;
     width: 50px;
