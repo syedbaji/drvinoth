@@ -560,7 +560,7 @@ button:focus.navbar-toggler {
 .callto-action-section .action-buttons{
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 25px;
     z-index: 9;
     width: 50px;
     /* height: 150px; */
@@ -580,10 +580,25 @@ button:focus.navbar-toggler {
 .callto-sticky-icon.bars{
     background: #266ab3;
 }
-.callto-sticky-icon.times{
-    background: red;
+.bar-block.de-active a{
+    background: darkred;
+}
+/* .bar-block.active i{
+    display: none;
+} */
+.bar-block.active i.active{
+    display: block;
+}
+.bar-block.active i.de-active{
+    display: none;
 }
 
+.bar-block.de-active i.de-active{
+    display: block;
+}
+.bar-block.de-active i.active{
+    display: none;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 
 /* // No media query since this is the default in Bootstrap */
@@ -594,7 +609,18 @@ button:focus.navbar-toggler {
 
 /* // Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .mobile-carousel-desktop-nocarousel {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    .mobile-carousel-desktop-nocarousel .item {
+        flex: 1 0 33.333%;
+        max-width: 33.333%;
+    }
+}
 
 /* // Large devices (desktops, 992px and up) */
 
@@ -629,16 +655,6 @@ button:focus.navbar-toggler {
     }
     .about-banner.bg-about {
         background: url(../images/about-banner.jpg) no-repeat left top / 100% !important;
-    }
-    .mobile-carousel-desktop-nocarousel {
-        display: flex;
-        align-items: start;
-        justify-content: space-between;
-        flex-flow: row wrap;
-    }
-    .mobile-carousel-desktop-nocarousel .item {
-        flex: 1 0 33.333%;
-        max-width: 33.333%;
     }
 }
 

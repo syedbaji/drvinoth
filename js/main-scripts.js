@@ -53,7 +53,7 @@ $(document).ready(function () {
                     items: 1
                 },
                 600: {
-                    items: 2
+                    items: 3
                 },
                 1000: {
                     items: 3
@@ -73,7 +73,7 @@ $(document).ready(function () {
                     items: 1
                 },
                 600: {
-                    items: 2
+                    items: 3
                 },
                 1000: {
                     items: 3
@@ -89,6 +89,11 @@ $(document).ready(function () {
     //     $('.more-details .services-desc-block p').text(content);
     //     $('.more-details').animate({'top': '0px', 'opacity': '1'});
     // })
+    $('.bar-block a').on('click', function(event){
+        event.preventDefault();
+        $(this).closest('.bar-block').toggleClass('active de-active');
+        $('.action-buttons-block').toggleClass('d-block d-none');
+    });
     $('a.gal-item, a.pop-item').on('click', function(){
         var thiis = $(this);
         var showurl = '';
