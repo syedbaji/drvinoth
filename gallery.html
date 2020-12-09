@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/owlcarousel_styles/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owlcarousel_styles/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/jquery.lightbox.css" rel="stylesheet">
     <link href="css/custom-styles.css" rel="stylesheet">
-    <!-- <link href="css/lightbox.min.css" rel="stylesheet"> -->
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
@@ -167,14 +167,46 @@
             <div class="row">
                 <div class="col-lg-12 py-5">
                     <div class="col-lg-12 p-0 py-lg-5 py-md-3">
-                        <h2 class="text-white font-30 extra-bold-800">SERVICES</h2>
+                        <h2 class="text-white font-30 extra-bold-800 text-uppercase">Gallery</h2>
                         <!-- <p class="text-white font-22"> <b>Dr. V. Vinoth Kumar</b> <br> MD., DM (Interventional Cordiologist)</p> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="filter-portfolio-section six-col-section">
+    <section class="xxx-section one-col-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 p-0 row-1 col-wrapper d-flex flex-row flex-wrap justify-content-between">
+                    <div class="col-lg-12 p-0 column1">
+                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap align-items-start justify-content-between gallery">
+                            <div class="col-lg-3">
+                                <a href="images/video3.jpg" data-caption="Image 1" data-type="img">
+                                  <img src="images/video3.jpg" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-lg-3">
+                                <a href="images/dr-vinoth.jpg" data-caption="Image 1" data-type="img">
+                                  <img src="images/dr-vinoth.jpg" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-lg-3">
+                                <a href="images/video1.jpg" data-caption="Image 1" data-type="img">
+                                  <img src="images/video1.jpg" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-lg-3">
+                                <a href="https://www.youtube.com/embed/C81nqlBD3wg" data-caption="Image 1" data-type="youtube">
+                                  <img src="images/video3.jpg" class="img-fluid w-100">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="filter-portfolio-section six-col-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 p-0 row-2 col-wrapper d-flex flex-row flex-wrap justify-content-center pt-5">
@@ -203,34 +235,10 @@
                             <a class="image gal-item" data-toggle="modal" data-target="#myVideoModal" href="#" data-imageurl="images/test-1.jpg"><img class="w-100" src="images/test-1.jpg" alt=""/></a>
                         </div>
                     </div>
-                    <!-- <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column5 right2-column cat-pub active">
-                        <div class="col-lg-12 p-0">5</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column6 right-column cat-pres active">
-                        <div class="col-lg-12 p-0">6</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column1 left-column cat-pres active">
-                        <div class="col-lg-12 p-0">1</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column2 left2-column cat-pub active">
-                        <div class="col-lg-12 p-0">2</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column3 left3-column cat-pub active">
-                        <div class="col-lg-12 p-0">3</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column4 right3-column cat-pres active">
-                        <div class="col-lg-12 p-0">4</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column5 right2-column cat-pub active">
-                        <div class="col-lg-12 p-0">5</div>
-                    </div>
-                    <div class="px-3 p-0 border-0 mb-4 port-item col-lg-3 column6 right-column cat-pres active">
-                        <div class="col-lg-12 p-0">6</div>
-                    </div> -->
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <footer class="footer-section bg-blue text-white pt-sm-5 pb-5 pb-lg-3">
         <div class="container">
             <div class="row py-5">
@@ -346,9 +354,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- <script src="js/lightbox-plus-jquery.min.js"></script> -->
+    <script src="js/jquery.lightbox.js"></script>
     <script src="js/owlcarousel_js/owl.carousel.min.js"></script>
     <script src="js/main-scripts.js"></script>
+    <script>
+        $(function(){
+            $('.gallery a').lightbox();
+        });
+    </script>
 </body>
 
 </html>

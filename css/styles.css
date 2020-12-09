@@ -503,6 +503,12 @@ button:focus.navbar-toggler {
 .bar-block.de-active i.active{
     display: none;
 }
+.iframe-holder{
+    pointer-events: none;
+}
+.iframe-holder iframe{
+    pointer-events: all !important;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* // Small devices (landscape phones, 576px and up) */
