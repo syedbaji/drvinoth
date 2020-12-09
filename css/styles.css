@@ -44,11 +44,12 @@ body {
     background-color: #2d54a2 !important;
 }
 .consult-location-section {
-    box-shadow: 0 0 10px inset #BDBDBD;
-    background: #F5F5F5;
+    /* box-shadow: 0 0 10px inset #BDBDBD; */
+    background: #074181;
 }
 .consult-location-section p{
     letter-spacing: 0.5px;
+    color: white !important;
 }
 .consult-location-section .first-block {
     line-height: 24px;
