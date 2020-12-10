@@ -47,6 +47,9 @@ body {
     /* box-shadow: 0 0 10px inset #BDBDBD; */
     background: #074181;
 }
+.consult-location-section .bsr-lg-1{
+    box-shadow: 1px 0px 0px 0px rgba(238, 238, 238,0.2) !important;
+}
 .consult-location-section p{
     letter-spacing: 0.5px;
     color: white !important;

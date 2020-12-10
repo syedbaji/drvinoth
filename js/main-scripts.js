@@ -39,6 +39,26 @@ $(document).ready(function () {
             }
         }
     });
+    $('.home-services-carousel').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
     if($(window).width() < 767){
         $('.home-testimonial-carousel').owlCarousel({
             loop: false,
@@ -59,28 +79,7 @@ $(document).ready(function () {
                     items: 3
                 }
             }
-        });
-        $('.home-services-carousel').owlCarousel({
-            loop: false,
-            margin: 10,
-            nav: false,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 4000,
-            autoplayHoverPause: false,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 3
-                }
-            }
-        });
-        
+        });        
     }
     // $('.readmore').on('click', function(){
     //     var title = $(this).closest('.services-item').find('h3').text();
