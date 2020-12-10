@@ -242,8 +242,9 @@ a:hover {
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
 }
 .about-box .icon, .ser_icon .icon {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
     border-radius: 50%;
     display: block;
     line-height: 80px;
@@ -551,6 +552,12 @@ button:focus.navbar-toggler {
     }
     .echocardiogram-service-section {
         background-image: url(../images/service-Echocar.jpg);
+    }
+    .holtermonitoring-service-section {
+        background-image: url(../images/services-holter-monitor.jpg);
+    }
+    .ambulatory-service-section {
+        background-image: url(../images/services-ambulatory-24bp.jpg);
     }
     .logo-img {
         /* min-height: 128px; */
