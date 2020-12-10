@@ -104,9 +104,6 @@ nav.bst-1 {
 .navbar-light .navbar-nav .nav-link {
     color: #4a4a4a;
 }
-.navbar-light .navbar-nav .nav-item a {
-    border-bottom: solid 0.5px #ccc;
-}
 ul.custom-bullets {
     list-style: none;
 }
@@ -609,6 +606,9 @@ button:focus.navbar-toggler {
     }
     .navbar-nav li.nav-item.dropdown > a > span.down-icon-holder .fa-caret-down{
         font-size: 30px;
+    }
+    .navbar-light .navbar-nav .nav-item a {
+        border-bottom: solid 0.5px #ccc;
     }
 }
 /* // Small devices (landscape phones, less than 768px) */
