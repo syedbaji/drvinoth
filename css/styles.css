@@ -105,7 +105,7 @@ nav.bst-1 {
     color: #4a4a4a;
 }
 .navbar-light .navbar-nav .nav-item a {
-    /* font-size: 13px; */
+    border-bottom: solid 0.5px #ccc;
 }
 ul.custom-bullets {
     list-style: none;
@@ -333,7 +333,10 @@ a:hover {
         transform: scale(0);
     }
 }
-.dropdown:hover .dropdown-menu {
+.dropdown .dropdown-menu {
+    display: none;
+}
+.dropdown.active .dropdown-menu {
     display: block;
 }
 .dropdown-menu {
@@ -532,6 +535,9 @@ button:focus.navbar-toggler {
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
     .banner-section h2 {
         font-size: 40px;
     }
@@ -577,6 +583,32 @@ button:focus.navbar-toggler {
     .social-icons ul.list-agileits li:first-child{
         width: 100%;
         margin-bottom: 16px;
+    }
+    .navbar-nav li{
+        width: 100%;
+    }
+    .navbar-nav li.nav-item.dropdown > a{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-light .navbar-nav > .nav-item > a {
+        padding: 0 !important;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .navbar-nav li.nav-item.dropdown > a > span.down-icon-holder{
+        width: 60px;
+        height: 50px;
+        /* background: #666; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .navbar-nav li.nav-item.dropdown > a > span.down-icon-holder .fa-caret-down{
+        font-size: 30px;
     }
 }
 /* // Small devices (landscape phones, less than 768px) */

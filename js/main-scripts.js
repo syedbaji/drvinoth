@@ -87,7 +87,11 @@ $(document).ready(function () {
     //     $('.more-details h3').text(title);
     //     $('.more-details .services-desc-block p').text(content);
     //     $('.more-details').animate({'top': '0px', 'opacity': '1'});
-    // })
+    // });
+    $('span.down-icon-holder').on('click', function(event){
+        event.preventDefault();
+        $(this).closest('.dropdown').toggleClass('active');
+    });
     $('.bar-block a').on('click', function(event){
         event.preventDefault();
         $(this).closest('.bar-block').toggleClass('active de-active');
