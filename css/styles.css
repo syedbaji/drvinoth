@@ -184,12 +184,12 @@ ul.list-agileits {
 ul.list-agileits li {
     text-align: left;
 }
-.list-agileits li a {
+.list-agileits li a, .soc-icons a {
     color: #fff;
     text-transform: capitalize;
     font-size: 1em;
 }
-footer .facebook {
+footer .facebook, .soc-icons .facebook {
     background: white;
     width: 30px;
     height: 30px;
@@ -512,6 +512,17 @@ button:focus.navbar-toggler {
 }
 .iframe-holder iframe{
     pointer-events: all !important;
+}
+.blogs-list-section .blog-item{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    transition: all 0.3s ease;
+}
+.blogs-list-section .blog-item:hover{
+    transform: translateY(-0.25rem);
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+    transition: all 0.3s ease;
 }
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
