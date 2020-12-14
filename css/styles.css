@@ -524,6 +524,53 @@ button:focus.navbar-toggler {
     box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
     transition: all 0.3s ease;
 }
+.mobile-icon img{
+    max-height: 30px;
+    animation: vibrate 0.5s infinite;
+}
+.whatsapp-icon img{
+    max-height: 30px;
+    animation: vibrate1 1s infinite;
+}
+.whatsapp-icon span{
+    animation: color-change1 2s infinite;
+}
+.mobile-icon span{
+    animation: color-change 2s infinite;
+}
+@keyframes color-change {
+    0% { color: #f04b68; }
+    50% { color: #2d54a2; }
+    100% { color: #f04b68; }
+}
+@keyframes color-change1 {
+    0% { color: #3ab770; }
+    50% { color: #2d54a2; }
+    100% { color: #3ab770; }
+}
+@keyframes vibrate {
+    0% { transform: rotate(0deg) }
+    25% { transform: rotate(3deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(-3deg) }
+    100% { transform: rotate(0deg) }
+}
+@keyframes vibrate1 {
+    0% { transform: rotate(0deg); transform: scale(1); }
+    25% { transform: rotate(3deg);}
+    50% { transform: rotate(0deg); transform: scale(1.05); }
+    75% { transform: rotate(-3deg) }
+    100% { transform: rotate(0deg); transform: scale(1); }
+}
+.fa-mobile-phone:before, .fa-mobile:before {
+    content: "";
+    background: url(../images/phone-icon.png) no-repeat center center / 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* // Small devices (landscape phones, 576px and up) */
