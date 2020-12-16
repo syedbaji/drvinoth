@@ -70,6 +70,9 @@ nav.bst-1 {
 .bg-yellow-green{
     background-image: linear-gradient(to right, #2d54a2 50%, #3ab770 50%);
 }
+.fancy-border-bottom.yellow-green {
+    background-image: linear-gradient(to right, #3ab770 50%, #2d54a2 50%);
+}
 .book-cusultation-block .drv-btn {
     max-width: 250px;
 }
