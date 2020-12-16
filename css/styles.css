@@ -68,7 +68,11 @@ nav.bst-1 {
     background-color: #ffffff!important;
 }
 .bg-yellow-green{
-    background-image: linear-gradient(to right, #2d54a2 50%, #3ab770 50%);
+    background-image: linear-gradient(to right, rgba(45, 84, 162,0.09) 50%, rgba(58, 183, 112,0.09) 50%);
+}
+.bg-yellow-green p, .bg-yellow-green h5, .bg-yellow-green h1, .bg-yellow-green li{
+    /* text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5); */
+    /* color: #4a4a4a !important; */
 }
 .fancy-border-bottom.yellow-green {
     background-image: linear-gradient(to right, #3ab770 50%, #2d54a2 50%);
