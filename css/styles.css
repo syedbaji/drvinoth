@@ -68,7 +68,7 @@ nav.bst-1 {
     background-color: #ffffff!important;
 }
 .bg-yellow-green{
-    background-image: linear-gradient(to right, rgba(142, 189, 117,0.9) 50%, rgba(63, 202, 147,0.9) 50%);
+    background-image: linear-gradient(to right, #2d54a2 50%, #3ab770 50%);
 }
 .book-cusultation-block .drv-btn {
     max-width: 250px;
