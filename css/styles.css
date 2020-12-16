@@ -67,6 +67,9 @@ nav.bst-1 {
 .bg-light {
     background-color: #ffffff!important;
 }
+.bg-yellow-green{
+    background-image: linear-gradient(to right, rgba(142, 189, 117,0.9) 50%, rgba(63, 202, 147,0.9) 50%);
+}
 .book-cusultation-block .drv-btn {
     max-width: 250px;
 }
@@ -104,6 +107,9 @@ nav.bst-1 {
 .navbar-light .navbar-nav .nav-link {
     color: #4a4a4a;
 }
+ul.no-bullets{
+    list-style: none;
+}
 ul.custom-bullets {
     list-style: none;
 }
@@ -122,6 +128,9 @@ ul.custom-bullets li:before {
     background: #3ab770;
     border-radius: 20px;
     border-bottom-right-radius: 0px;
+}
+ul.custom-bullets.two li:before {
+    background: #f04b68;
 }
 ul.custom-bullets li:after {
     content: '';
