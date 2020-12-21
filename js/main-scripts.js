@@ -42,8 +42,8 @@ $(document).ready(function () {
     $('.home-services-carousel').owlCarousel({
         loop: false,
         margin: 10,
-        nav: false,
-        dots: true,
+        nav: true,
+        dots: false,
         autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: false,
@@ -145,5 +145,11 @@ $(document).ready(function () {
         showActiveTabContent($(this));
     });
     // $('.clickmefor-mobile-menu').
-    
+    $(window).on('scroll', function(){
+        if($(window).scrollTop() > 1){
+            $('header').addClass('fixed-top');
+        }else{
+            $('header').removeClass('fixed-top');
+        }
+    });
 });

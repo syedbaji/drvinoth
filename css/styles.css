@@ -502,6 +502,9 @@ button:focus.navbar-toggler {
 .callto-sticky-icon.phonecall{
     background: #5170ff;
 }
+.callto-sticky-icon.facebook{
+    background: #4267b2;
+}
 .callto-sticky-icon.bars{
     background: #266ab3;
 }
@@ -587,6 +590,24 @@ button:focus.navbar-toggler {
     top: 0;
     left: 0;
 }
+.home-services-carousel .owl-prev, .home-services-carousel .owl-prev span,
+.home-services-carousel .owl-next, .home-services-carousel .owl-next span{
+    width: 30px !important;
+}
+.home-services-carousel .owl-nav{
+    pointer-events: none;
+}
+.home-services-carousel .owl-nav .owl-prev{
+    margin-left: 20px;
+    pointer-events: all;
+}
+.home-services-carousel .owl-nav .owl-next{
+    margin-right: 20px;
+    pointer-events: all;
+}
+.header-section.fixed-top{
+    box-shadow: 0px 1px 4px #000000;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* // Small devices (landscape phones, 576px and up) */
@@ -606,6 +627,12 @@ button:focus.navbar-toggler {
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .home-services-carousel .owl-nav .owl-prev{
+        margin-left: -20px;
+    }
+    .home-services-carousel .owl-nav .owl-next{
+        margin-right: -20px;
+    }
     .dropdown:hover .dropdown-menu{
         display: block;
     }
